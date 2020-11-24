@@ -63,6 +63,30 @@ html {
 
 /* stylelint-disable media-feature-name-no-unknown */
 
+@media (prefers-reduced-motion) {
+
+  img {
+    animation: none;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: #222;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    color: #222;
+  }
+
+}
+
 /**
  * =============
  * Write your “prefers” media queries here, between these two `stylelint` comments.
